@@ -14,6 +14,6 @@ Gem::Specification.new do |s|
 
   s.files       = Dir['{lib}/**/*', 'LICENSE', 'README.md']
 
-  s.required_ruby_version = '>= 2.6.0'
+  s.required_ruby_version = '>= 2.5.0'
   s.add_dependency 'httparty', '>= 0.16.0', '< 0.22.0'
 end
